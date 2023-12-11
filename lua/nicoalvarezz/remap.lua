@@ -1,5 +1,7 @@
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.g.mapleader = " "
+
+vim.keymap.set("n", "<leader>vp", vim.cmd.Ex)
 
 -- move blocks of code when in V mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
