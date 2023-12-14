@@ -13,8 +13,14 @@ Simply go to the `/lua/nicoalvarezz/packer.lua` file source it (using `:so`) and
 - lsp-zero
 - mason
 
+## Prerequisites
+- install [ripgrep](https://github.com/BurntSushi/ripgrep)
+- follow [packer](https://github.com/wbthomason/packer.nvim) installation instructions
+
 ## Usage Suggestion
-To optimize your experience with these minimalist configs, I recommend forking this repository. This way, you can seamlessly integrate your preferred plugins and tailor your NeoVim configurations to suit your individual preferences. Happy Coding! 🚀
+To optimize your experience with these minimalist configs, I recommend forking this repository. This way, you can seamlessly integrate your preferred plugins and tailor your NeoVim configurations to suit your individual preferences. 
+
+Happy Coding! 🚀
 
 ## Notes
 - When referred to `<leader>` throughout this `README`, it means the main key that will be used to make most of the remaps. In this configs, the default `<leader>` is `Space`
