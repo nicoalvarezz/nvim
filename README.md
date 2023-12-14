@@ -2,6 +2,10 @@
 
 Welcome to my NeoVim configurations repository! Here, you'll find my minimalistic setup designed to enhance your NeoVim experience. Featuring fantastic plugins like Telescope and LSP configuration, this setup is easy to install and ready to supercharge your workflow.
 
+## Prerequisites
+- install [ripgrep](https://github.com/BurntSushi/ripgrep)
+- follow [packer](https://github.com/wbthomason/packer.nvim) installation instructions
+
 ## Installation
 Simply go to the `/lua/nicoalvarezz/packer.lua` file source it (using `:so`) and install all the plugins using `:PakcerSync`. That will install and set up the following plugins:
 
@@ -12,10 +16,6 @@ Simply go to the `/lua/nicoalvarezz/packer.lua` file source it (using `:so`) and
 - fugitive
 - lsp-zero
 - mason
-
-## Prerequisites
-- install [ripgrep](https://github.com/BurntSushi/ripgrep)
-- follow [packer](https://github.com/wbthomason/packer.nvim) installation instructions
 
 ## Usage Suggestion
 To optimize your experience with these minimalist configs, I recommend forking this repository. This way, you can seamlessly integrate your preferred plugins and tailor your NeoVim configurations to suit your individual preferences. 
