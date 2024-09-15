@@ -1,4 +1,4 @@
-vim.cmd[[colorscheme horizon]]
+vim.cmd[[colorscheme catppuccin-mocha]]
 
 vim.g.mapleader = " "
 
@@ -25,4 +25,6 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
+
+vim.opt.conceallevel = 1
 

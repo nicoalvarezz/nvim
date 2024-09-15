@@ -29,7 +29,7 @@ Happy Coding! 🚀
 	vim.g.mapleader = " "
     ```
 * The theme will be et automatically to [horizon](https://github.com/LunarVim/horizon.nvim)
-	* You can install any other them and set it in the `set.lua` file previously mentioned
+	* You can install any other theme and set it in the `set.lua` file previously mentioned
 * There are some other sets and remaps that you can checkout in the `set.lua` and `rempa.lua` files
 
 ## Telescope

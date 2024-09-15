@@ -15,10 +15,14 @@ return require('packer').startup(function(use)
   }
 
   -- theme
-  use "lunarvim/horizon.nvim"
+  -- use "lunarvim/horizon.nvim"
+  use { "catppuccin/nvim", as = "catppuccin" }
 
   -- treesitter
-  use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use ('nvim-treesitter/nvim-treesitter', { 
+      run = ':TSUpdate',
+      ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "java" },
+  })
 
   -- harpoon
   use('theprimeagen/harpoon')
@@ -51,4 +55,18 @@ return require('packer').startup(function(use)
   }
 
 
+
+  use 'nvim-tree/nvim-web-devicons'
+
+  use({
+        'MeanderingProgrammer/render-markdown.nvim',
+        after = { 'nvim-treesitter' },
+       --  requires = { 'echasnovski/mini.nvim', opt = true }, -- if you use the mini.nvim suite
+        -- requires = { 'echasnovski/mini.icons', opt = true }, -- if you use standalone mini plugins
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }, -- if you prefer nvim-web-devicons
+        config = function()
+            require('render-markdown').setup({})
+        end,
+    })
 end)
+
